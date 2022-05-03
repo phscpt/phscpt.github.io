@@ -1,0 +1,60 @@
+/* OVERALL */
+
+html, body {
+    background: rgb(250, 250, 250);
+    height: 100%;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    #main {
+        display: block;
+    }
+}
+
+/* ELEMENTS */
+
+img {
+    filter: drop-shadow(0px 0px 10px rgb(228, 228, 228));
+}
+
+img:hover {
+    filter: drop-shadow(0px 0px 10px rgb(191, 191, 191));
+}
+
+a {
+    cursor: pointer;
+}
+
+/* SIDEBAR AND LAYOUT */
+
+#sidebar {
+    grid-column: 1;
+}
+
+#sidebar button {
+    width: 100%;
+}
+
+#posts {
+    grid-column: 2 / 4;
+}
+
+/* PRACTICE PLATFORM */
+table {
+    border-collapse: collapse;
+}
+.prob {
+    text-align: center;
+}
+.fail {
+    background-color: rgba(255, 83, 83, 0.5);
+}
+.success {
+    background-color: rgba(81, 204, 85, 0.5);
+}
