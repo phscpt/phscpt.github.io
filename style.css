@@ -15,6 +15,9 @@ html, body {
     #main {
         display: block;
     }
+    #logo-main {
+        width: 50%;
+    }
 }
 
 /* ELEMENTS */
