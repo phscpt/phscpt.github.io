@@ -16,7 +16,7 @@ html, body {
         display: block;
     }
     #logo-main {
-        width: 50%;
+        width: 40%;
     }
 }
 
@@ -46,18 +46,4 @@ a {
 
 #posts {
     grid-column: 2 / 4;
-}
-
-/* PRACTICE PLATFORM */
-table {
-    border-collapse: collapse;
-}
-.prob {
-    text-align: center;
-}
-.fail {
-    background-color: rgba(255, 83, 83, 0.5);
-}
-.success {
-    background-color: rgba(81, 204, 85, 0.5);
 }
