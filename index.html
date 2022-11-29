@@ -29,6 +29,51 @@
             </div>
             <div id="posts">
                 <h1>News and Information</h1>
+                <h2>Christmas Coding!</h2>
+                <p>
+                    <a href="https://adventofcode.com">Advent of Code</a> will be running throughout the month of December, with increasingly difficult challenges posted each day. I highly recommend to use this for practice, because the problems are actually really good (and fun, too). To join our leaderboard, use the code <code>1823080-6ad0f2e4</code>.
+                    <br><br>
+                    - Jieruei
+                </p>
+                <hr>
+                <h2>CALICO Teams!</h2>
+                <p>
+                    Here are the team assignments for the California Informatics Competition, based mainly on past tournament results:
+                </p>
+                <table>
+                    <thead>
+                        <th>Team</th>
+                        <th>Members</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Princeton CPT Alpha</td>
+                            <td>Jieruei Chang, Nicholas Hagedorn, Henry Langmack</td>
+                        </tr>
+                        <tr>
+                            <td>Princeton CPT Beta</td>
+                            <td>Nina Tacheva, Marco Hu, Brian Jiang</td>
+                        </tr>
+                        <tr>
+                            <td>Princeton CPT Gamma</td>
+                            <td>Ronald Aung, Tommy Birge, Melvin Huang</td>
+                        </tr>
+                        <tr>
+                            <td>Princeton CPT Delta</td>
+                            <td>Will Pittman, Derek Han, Tom Schlessinger</td>
+                        </tr>
+                        <tr>
+                            <td>Princeton CPT Epsilon</td>
+                            <td>Yochin Chang, Vikas Yarlagadda</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    We'll practice for CALICO on <b>11/21</b>. See you then!
+                    <br><br>
+                    - Jieruei and Nick
+                </p>
+                <hr>
                 <h2>PClassic Teams!</h2>
                 <p>
                     Here are the team assignments for PClassic Fall 2022, based on TST results and our general observations on how well we think different members work together:
@@ -116,7 +161,10 @@
             </div>            
         </div>
         <br><br>
-        <footer>Copyright (c) PHS Competitive Programming Team</footer>
+        <footer>Copyright © <span id="year"></span> PHS Competitive Programming Team</footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
         <br>
     </body>
 </html>
