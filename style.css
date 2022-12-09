@@ -38,6 +38,11 @@ table {
     border: 1px solid var(--border)
 }
 
+button, input[type="submit"] {
+    border: 1px solid var(--button-hover);
+    box-shadow: 5px 5px 15px rgb(240, 240, 240);
+}
+
 /* SIDEBAR AND LAYOUT */
 
 #sidebar {
