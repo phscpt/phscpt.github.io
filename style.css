@@ -1,5 +1,5 @@
 /* OVERALL */
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');*/
 
 html, body {
     background: rgb(250, 250, 250);
@@ -7,12 +7,12 @@ html, body {
 }
 
 body {
-    font-family: "Asap", sans-serif;
+    font-family: Asap, sans-serif;
 }
 
 h1, h2 {
     font-weight: lighter;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: Asap, sans-serif;
 }
 
 #main {
