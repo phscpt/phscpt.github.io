@@ -1,5 +1,5 @@
 /* OVERALL */
-/*@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 html, body {
     background: rgb(250, 250, 250);
@@ -7,12 +7,12 @@ html, body {
 }
 
 body {
-    font-family: Asap, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 h1, h2 {
     font-weight: lighter;
-    font-family: Asap, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 #main {
@@ -31,6 +31,18 @@ h1, h2 {
 }
 
 /* ELEMENTS */
+
+#hero {
+    background-image: url("cpt_bg.png");
+    width: 100%;
+    filter: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
 
 img {
     filter: drop-shadow(0px 0px 10px rgb(228, 228, 228));
