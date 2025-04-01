@@ -1,6 +1,6 @@
 :root {
     --background-body: #fff;
-    --background: #efefef;
+    --background: #ffffff;
     --background-alt: #f7f7f7;
     --selection: #9e9e9e;
     --text-main: #363636;
@@ -496,8 +496,7 @@ tfoot {
 }
 
 tbody tr:nth-child(2n) {
-    background-color: #efefef;
-    background-color: var(--background)
+    background-color: var(--background);
 }
 
 tbody tr:nth-child(2n) button {

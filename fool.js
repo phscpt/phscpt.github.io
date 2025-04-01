@@ -25,18 +25,17 @@ const fool = () => {
 
     const dark = {
         "--background-body": "#000000",
-        "--backgoround": "0f0f0f",
+        "--background": "#0f0f0f",
         "--background-alt": "#f7f7f7",
         "--selection": "#303030",
         "--text-main": "#d0d0d0",
         "--text-bright": "#fff",
         "--text-muted": "#bebebe",
         "--button-base": "#353535",
-        "--form-text": "#e0e0e0",
+        "--form-text": "#e0e0e0"
     }
-
     for (const style in dark) document.documentElement.style.setProperty(style, dark[style]);
 
-    setTimeout(infect, 1000);
+    infect(document.body);
 }
 fool();
