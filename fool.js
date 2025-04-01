@@ -37,6 +37,6 @@ const fool = () => {
 
     for (const style in dark) document.documentElement.style.setProperty(style, dark[style]);
 
-    setTimeout(infect, 100);
+    setTimeout(infect, 1000);
 }
 fool();
